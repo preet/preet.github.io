@@ -1,3 +1,3 @@
 [gimmick:theme (inverse: false)](flatly)
-[About](index.md)
-[Projects](projects.md)
+[Projects](index.md)
+[About](about.md)

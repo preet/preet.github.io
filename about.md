@@ -6,6 +6,7 @@ I have a Bachelor's degree in Mechatronics Engineering from the University of Wa
 
 See what I'm working on [here](http://preet.github.io/#!index.md)
 
-You can get my resume from [here](http://preet.github.io/resume.pdf)
+You can get my resume from 
+[here](http://preet.github.io/resume_nov_2013.pdf)
 
 My open source code is on [my github](http://github.com/preet)

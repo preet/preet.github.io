@@ -39,7 +39,7 @@ This library is a nearly identical to an older library I wrote called obdref wit
 
 ####**prismatic**
 *(C++, Qt4->Qt5, Boost, Android/JNI)*
-prismatic is a general plugin-based front end that was created in response to some of the ideas and experiences I picked up working on front end software. The current version has been actively developed for over 2 years and has seen many changes and updates. At present, its used as a platform to create other applications. I'm currently building an offline mapping application and a vehicle telemetry application on top of prismatic. Previous versions of prismatic supported BlackBerry OS(QNX), but the current focus is on Android.
+prismatic is a general plugin-based front end that was created in response to some of the ideas and experiences I picked up working on front end software. It was used as a platform to create other applications and a base for an offline mapping application and a vehicle telemetry application.
 
 ####**prismatic / Unnamed Mapping Application**
 A 3d mapping and navigation application based on data from the OpenStreetMap project. The application uses offline data so that maps are always available, even when a wireless or data connection isn't. The look and feel of the maps can be changed on the fly to allow for customization and improved accessibility (increased contrast, larger fonts, etc).

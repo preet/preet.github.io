@@ -2,7 +2,42 @@
 
 ***
 
-####**prismatic** 
+####**ks**
+*(C++11, Asio, Catch, GLM, SDL2, lodepng, FreeType, HarfBuzz, ICU, libunibreak)*
+ks is a c++ library that can be used to help create applications and libraries. The core module has an implementation of signals and slots with event loops for event based programming inspired by the Qt framework. Additional modules provide platform event abstraction with SDL2, a simple OpenGL 2.1/OpenGL ES 2 wrapper, an Entity Component System, an interface to create and manage drawable objects, and unicode text rendering. ks has only been tested on Linux and Android so far, but the eventual goal is to have it working on all major desktop and mobile platforms.
+
+[**Source Code**](https://github.com/preet?tab=repositories)
+
+***
+
+####**raintk**
+*(C++11, ks, Clipper)*
+raintk is a gui library for creating dynamic user interfaces. It is inspired by Qt's QtQuick/QML user interface library and has reactive widgets that can be automatically updated using property bindings.
+
+[**Source Code**](https://github.com/preet/raintk)
+
+![](images/rtk1.png)
+![](images/rtk2.png)
+
+![](images/rtk6.png)
+![](images/rtk5.png)
+
+***
+
+####**obdex**
+*(C++11, JavaScript, pugixml, duktape)*
+obdex is a small library that is meant to act as a layer between on-board diagnostics ("OBD") interface software and higher level applications. It helps a developer build and parse messages required to communicate with a vehicle. An XML+JavaScript definitions file is used to define vehicle parameters, and can be easily extended to add support for additional parameters unique to different vehicles.
+
+This library is a nearly identical to an older library I wrote called obdref with the only major difference being this version has no Qt dependency.
+
+[**Source Code**](https://github.com/preet/obdex)
+
+
+###Inactive Projects
+
+****
+
+####**prismatic**
 *(C++, Qt4->Qt5, Boost, Android/JNI)*
 prismatic is a general plugin-based front end that was created in response to some of the ideas and experiences I picked up working on front end software. The current version has been actively developed for over 2 years and has seen many changes and updates. At present, its used as a platform to create other applications. I'm currently building an offline mapping application and a vehicle telemetry application on top of prismatic. Previous versions of prismatic supported BlackBerry OS(QNX), but the current focus is on Android.
 
@@ -59,11 +94,9 @@ libosmsrender is a modular library that can be used to render map data in 3d. It
 ![](images/libosmsrender3.png)
 ![](images/libosmsrender4.png)
 
-###Inactive Projects
-
 ****
 
-####**prismatic (old)** 
+####**prismatic (old)**
 *(C++,Qt4)*
 More formalized attempt at creating an IVI front-end application to use in an in-car computer.
 
@@ -88,6 +121,3 @@ Demo created in my spare time at school. Basic music playback and telemetry over
 [Video 1 - testing out music playback and reading vehicle parameters](http://youtu.be/24dYSASumpY)
 
 ![](images/thumb_pris1video.png)
-
-
-  

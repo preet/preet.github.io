@@ -1,5 +1,3 @@
-###Active Projects
-
 ***
 
 ####**ks**
@@ -32,8 +30,6 @@ This library is a nearly identical to an older library I wrote called obdref wit
 
 [**Source Code**](https://github.com/preet/obdex)
 
-
-###Inactive Projects
 
 ****
 
